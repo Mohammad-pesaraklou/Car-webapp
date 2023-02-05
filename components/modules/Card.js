@@ -1,5 +1,7 @@
 import Link from "next/link";
+// icons
 import Location from "../icons/Location";
+// style
 import styles from "@/styles/Card.module.css";
 
 function Card(props) {

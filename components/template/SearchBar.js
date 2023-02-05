@@ -1,6 +1,7 @@
-import styles from "@/styles/SearchBar.module.css";
 import { useRouter } from "next/router";
 import { useState } from "react";
+// style
+import styles from "@/styles/SearchBar.module.css";
 
 const SearchBar = () => {
   const [minPrice, setMinPrice] = useState("");

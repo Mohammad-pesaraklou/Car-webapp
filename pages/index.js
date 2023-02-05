@@ -1,10 +1,13 @@
+import { useEffect, useState } from "react";
+import Link from "next/link";
+// components
 import Card from "@/components/modules/Card";
 import Categories from "@/components/template/Categories";
 import SearchBar from "@/components/template/SearchBar";
+// data
 import carsData from "@/data/carsData";
+// style
 import styles from "@/styles/Layout.module.css";
-import Link from "next/link";
-import { useEffect, useState } from "react";
 
 export default function Home() {
   const[sortedData,setSortedData] = useState([])

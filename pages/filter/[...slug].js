@@ -1,6 +1,9 @@
-import CarsList from "@/components/modules/CarsList";
-import carsData from "@/data/carsData";
 import { useRouter } from "next/router";
+// components
+import CarsList from "@/components/modules/CarsList";
+// data
+import carsData from "@/data/carsData";
+// style
 import styles from "@/styles/Layout.module.css";
 
 const FilterCard = () => {

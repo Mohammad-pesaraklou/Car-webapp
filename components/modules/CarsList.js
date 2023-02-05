@@ -1,6 +1,9 @@
-import styles from "@/styles/CarsList.module.css";
 import { useRouter } from "next/router";
+// style
+import styles from "@/styles/CarsList.module.css";
+// icons
 import Back from "../icons/Back";
+// components
 import Card from "./Card";
 
 const CarsList = ({ data }) => {

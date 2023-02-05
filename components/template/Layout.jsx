@@ -1,6 +1,7 @@
-import styles from '@/styles/Layout.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
+// style
+import styles from '@/styles/Layout.module.css';
 
 const Layout = ({ children }) => {
     return (

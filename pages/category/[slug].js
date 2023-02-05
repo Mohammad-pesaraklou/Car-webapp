@@ -1,8 +1,8 @@
 import CarsList from "@/components/modules/CarsList";
 import CategoryCard from "@/components/modules/CategoryCard";
-import carsData from "@/data/carsData";
 import { useRouter } from "next/router";
-import React from "react";
+// data
+import carsData from "@/data/carsData";
 
 const CategoryPage = () => {
   const { query } = useRouter();

@@ -1,6 +1,7 @@
-import carsData from "@/data/carsData";
 import { useRouter } from "next/router";
-
+// data
+import carsData from "@/data/carsData";
+// components
 import CardsDetails from "@/components/modules/CardsDetails";
 
 const CarsDetails = () => {

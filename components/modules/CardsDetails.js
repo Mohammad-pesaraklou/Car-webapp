@@ -1,5 +1,6 @@
 import styles from "@/styles/CardsDetails.module.css";
 import Calender from "../icons/Calender";
+// icons
 import Company from "../icons/Company";
 import Location from "../icons/Location";
 import Model from "../icons/Model";
